@@ -9,7 +9,6 @@ using namespace std;
 
 class Boat {
   public: 
-
       string BOAT_NAME;
       int BOAT_MAKE;
 
@@ -36,6 +35,21 @@ class Boat {
 };
 
 
+int INDEX = 0;
+
+int menu() {
+
+    int selection;
+
+    cout << "Menu select: "; cin >> selection;
+
+    menu();
+
+        
+    return 0;
+}
+
+
 int main()
 {
     std::cout << "Hello World!\n";
@@ -54,13 +68,7 @@ int main()
 
     userBoat.createBoat(boatName, boatMake);
 
-    cin >> choice;
-
-    if (choice == 1) {
-        userBoat.sinkBoat();
-    }
-    else { cout << choice; }
-
+    menu();
    
 }
 
