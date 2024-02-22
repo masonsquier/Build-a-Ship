@@ -37,15 +37,19 @@ class Boat {
 
 int INDEX = 0;
 
-int menu() {
+int menu(Boat boat) {
 
     int selection;
 
     cout << "Menu select: "; cin >> selection;
 
-    menu();
+    if (selection == 1) {
+        boat.sinkBoat();
+    }
 
-        
+    menu(boat);
+
+  
     return 0;
 }
 
@@ -68,7 +72,7 @@ int main()
 
     userBoat.createBoat(boatName, boatMake);
 
-    menu();
+    menu(userBoat);
    
 }
 

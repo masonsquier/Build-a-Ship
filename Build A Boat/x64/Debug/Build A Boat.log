@@ -1,4 +1,4 @@
 ﻿  Build A Boat.cpp
-C:\Users\squie\source\repos\Build A Boat\Build A Boat\Build A Boat.cpp(62,9): warning C4101: 'choice': unreferenced local variable
-C:\Users\squie\source\repos\Build A Boat\Build A Boat\Build A Boat.cpp(50): warning C4717: 'menu': recursive on all control paths, function will cause runtime stack overflow
+C:\Users\squie\source\repos\Build A Boat\Build A Boat\Build A Boat.cpp(66,9): warning C4101: 'choice': unreferenced local variable
+C:\Users\squie\source\repos\Build A Boat\Build A Boat\Build A Boat.cpp(54): warning C4717: 'menu': recursive on all control paths, function will cause runtime stack overflow
   Build A Boat.vcxproj -> C:\Users\squie\source\repos\Build A Boat\x64\Debug\Build A Boat.exe
